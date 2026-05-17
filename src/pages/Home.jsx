@@ -90,7 +90,7 @@ export default function Home({ onCreated, onJoined }) {
       {activeTab === 'join' ? (
         <div className="card home-card join-card">
           <div className="join-steps">
-            <h2>Join a quiz room</h2>
+            <h2>How to join a quiz room</h2>
             <ol>
               <li>Ask the host for the <strong>6-letter room code</strong></li>
               <li>Enter your name and the code below</li>
