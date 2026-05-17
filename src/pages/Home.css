@@ -1,0 +1,77 @@
+.home-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  background: var(--surface);
+  padding: 0.35rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.home-tab {
+  flex: 1;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: background 0.2s, color 0.2s;
+}
+
+.home-tab.active {
+  background: var(--accent);
+  color: white;
+}
+
+.home-error {
+  margin-bottom: 1rem;
+}
+
+.join-card {
+  border-color: var(--accent);
+}
+
+.join-steps {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.join-steps h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.join-steps ol {
+  margin-left: 1.25rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.join-steps strong {
+  color: var(--text);
+}
+
+.home-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.card-desc {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.room-code-input {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.25rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
